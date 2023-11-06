@@ -24,4 +24,4 @@ models:
   jrtests_learn_dbt:
     # Applies to all files under models/example/
     example:
-      materialized: table
+      materialized: tables
