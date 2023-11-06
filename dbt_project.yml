@@ -20,6 +20,7 @@ source-paths: ["models"]
 # using the `{{ config(...) }}` macro.
 models:
   jrtests_learn_dbt:
-    +materialized: table
     example:
       +materialized: view
+    +materialized: table
+    
