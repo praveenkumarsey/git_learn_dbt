@@ -5,7 +5,7 @@ name: "jrtests_learn_dbt"
 version: "1.0.0"
 
 # This setting configures which "profile" dbt uses for this project.
-profile: "tutorial-jrtests-snowflake-db"
+profile: "jrtests_learn_dbt"
 
 # These configurations specify where dbt should look for different types of files.
 # The `source-paths` config, for example, states that models in this project can be
@@ -23,5 +23,4 @@ source-paths: ["models"]
 models:
   jrtests_learn_dbt:
     # Applies to all files under models/example/
-    example:
-      materialized: table
+    materialized: table
