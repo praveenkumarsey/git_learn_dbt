@@ -23,6 +23,6 @@ source-paths: ["models"]
 models:
   jrtests_learn_dbt:
     # Applies to all files under models/example/
-    materialized: table
+    +materialized: table
     example:
         materialized: view
