@@ -13,7 +13,6 @@ profile: "tutorial-jrtests-snowflake-db"
 source-paths: ["models"]
 
 
-target-path: "target" # directory which will store compiled SQL files
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
