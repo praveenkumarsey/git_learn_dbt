@@ -12,8 +12,6 @@ profile: "jrtests_learn_dbt"
 # found in the "models/" directory. You probably won't need to change these!
 source-paths: ["models"]
 
-
-
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
@@ -22,5 +20,6 @@ source-paths: ["models"]
 # using the `{{ config(...) }}` macro.
 models:
   jrtests_learn_dbt:
-    # Applies to all files under models/example/
-    materialized: table
+    +materialized: table
+    example:
+      +materialized: view
