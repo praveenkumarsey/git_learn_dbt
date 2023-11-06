@@ -3,8 +3,6 @@ version: 2
 
 models:
     
-    - name: test_first_model.sql
-      description: "A starter dbt model"
     - name: second_model.sql
       description: "use first model output"
       
