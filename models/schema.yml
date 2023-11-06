@@ -1,0 +1,7 @@
+
+version: 2
+
+models:
+    
+    - name: test_first_model.sql
+      description: "A starter dbt model"
